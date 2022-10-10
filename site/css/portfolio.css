@@ -80,3 +80,71 @@ p {
   padding-left: 15px;
   padding-right: 15px;
 }
+
+
+/* my CSS modification */
+/* first task */
+@media screen and (min-width: 700px) {
+  .navbar {
+      justify-content: space-between;
+  }
+}
+/* second task */
+@media screen and (min-width: 700px) {
+  .avatar-container {
+    text-align: center;
+  }
+}
+@media screen and (min-width: 700px) {
+  .desktop {
+    text-align: center;
+  };
+}
+/* third task */
+@media screen and (max-width: 700px) {
+ .img-avatar {
+  display: none;
+ }
+}
+/* fourth task */
+@media screen and (min-width: 700px) {
+  .skills {
+    display: flex;
+   flex-direction: row;
+    justify-content: center;
+  }
+}
+/* 5th task */
+@media screen and (max-width: 700px) {
+  .skills {
+    display: flex;
+    flex-direction: column;
+  }
+  
+}
+/* 6th task */
+@media screen and (min-width: 700px) {
+  .skills div:nth-of-type(1) {
+    order: 2;
+  }
+  .skills div:nth-of-type(2) {
+    order: 1;
+  }
+}
+/* 7th task */
+/* bonus */
+
+/* 8th task */
+/* bonus */
+
+/* js style  */
+/* 2nd task */
+#btn-changeText {
+  font-size: inherit;
+  color: inherit;
+  background-color: palevioletred;
+  border-color: white;
+  font-weight: 600;
+  border-radius: 0.6rem;
+  padding: 1rem 0.7rem;
+}
