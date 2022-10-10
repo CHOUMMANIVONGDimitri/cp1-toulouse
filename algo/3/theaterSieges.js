@@ -16,11 +16,16 @@ exemple :
   ['26-1', '26-2', '26-3', ..., '26-100']
 ] 
 */
-
 function theaterSieges() {
-  // Your code here !
+  const arrayresult = new Array();
+  for (let i = 0; i < 26; i++) {
+    arrayresult[i] = new Array();
+    for (let j = 0; j < 100; j++) {
+      arrayresult[i].push(i + 1 + "-" + (j + 1));
+    }
+  }
+  return arrayresult;
 }
-
 console.log(theaterSieges());
 
 module.exports = theaterSieges;
